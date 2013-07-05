@@ -1,1 +1,2 @@
-angular.module('burndownGridGenerator', ['burndownGridGenerator.controllers']);
+angular.module('burndownGridGenerator',
+		['burndownGridGenerator.controllers', 'burndownGridGenerator.directives']);
