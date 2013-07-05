@@ -5,9 +5,15 @@
 <title>Burndown Grid Generator</title>
 </head>
 <body ng-controller="ChartCtrl">
-	<burndown-grid/>
+	<div>
+		<burndown-grid maxHours="maxHours" days="days"/>
+	</div>
 
-	{{maxHours}}h for {{days}} days 
+	<div>
+		Maximum Hours: <input ng-model="maxHours"/><br/>
+		Days: <input ng-model="days"/>
+	</div>
+	 
 	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
 	<script src="js/app.js"></script>
 	<script src="js/controllers.js"></script>
