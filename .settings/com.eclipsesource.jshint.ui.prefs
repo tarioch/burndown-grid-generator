@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+globals=expect\:false, \r\nit\:false, \r\nspyOn\:false, \r\nafterEach\:false,\r\ndescribe\:false
+included=//*.js
+options=undef\:true,\r\nunused\:true,\r\nbrowser\:true,\r\ncurly\:true,\r\neqeqeq\:true,\r\nimmed\:true,\r\nlatedef\:true,\r\nnewcap\:true,\r\nnonew\:true,\r\nquotmark\:true,\r\nstrict\:true,\r\ntrailing\:true
+projectSpecificOptions=true

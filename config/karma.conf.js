@@ -1,3 +1,4 @@
+/* jshint undef:false */
 basePath = '../';
 
 files = [
