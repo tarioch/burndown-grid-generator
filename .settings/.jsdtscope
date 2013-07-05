@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
+	<classpathentry excluding="lib/" kind="src" path="test/unit"/>
+	<classpathentry kind="src" path="app/js"/>
 	<classpathentry kind="output" path=""/>
 </classpath>

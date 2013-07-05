@@ -1,0 +1,1 @@
+angular.module('burndownGridGenerator', ['burndownGridGenerator.controllers']);
